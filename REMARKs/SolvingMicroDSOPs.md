@@ -1,13 +1,14 @@
 ---
 # CFF required fields
-cff-version: "1.1.0" # required 
+cff-version: "1.1.0" # required
 authors: # required
-  -
-    family-names: "Carroll"
+  - family-names: "Carroll"
     given-names: "Christopher D."
     orcid: "https://orcid.org/0000-0003-3732-9312"
-  -
-    family-names: "Wang"
+  - family-names: "Lujan"
+    given-names: "Alan"
+    orcid: "https://orcid.org/0000-0002-5289-7054"
+  - family-names: "Wang"
     given-names: "Tao"
     orcid: "https://orcid.org/0000-0003-4806-8592"
 title: "Solution Methods for Microeconomic Dynamic Stochastic Optimization Problems" # required
@@ -19,22 +20,20 @@ remark-version: "1.0" # required
 references:
   - type: lecture-notes
     authors: # required
-      -
-        family-names: "Carroll"
+      - family-names: "Carroll"
         given-names: "Christopher D."
         orcid: "https://orcid.org/0000-0003-3732-9312"
     title: "Solution Methods for Microeconomic Dynamic Stochastic Optimization Problems"
-    repository: "https://github.com/econ-ark/SolvingMicroDSOPs" # optional
+    repository: "https://github.com/llorracc/SolvingMicroDSOPs" # optional
 
 # Econ-ARK website fields
-github_repo_url: https://github.com/econ-ark/SolvingMicroDSOPs # required 
-remark-name: SolvingMicroDSOPs # required 
+github_repo_url: https://github.com/econ-ark/SolvingMicroDSOPs # required
+remark-name: SolvingMicroDSOPs # required
 notebooks: # path to any notebooks within the repo - optional
-  - Code/Python/SolvingMicroDSOPs-Python.ipynb
-       
+  - SolvingMicroDSOPs.ipynb
+
 identifiers: # optional
-  - 
-    type: url
+  - type: url
     value: "https://llorracc.github.io/SolvingMicroDSOPs"
 
 tags:
@@ -45,7 +44,7 @@ tags:
 
 keywords: # optional
   - Consumption
-  - Saving 
+  - Saving
 ---
 
 # Solution Methods for Microeconomic Dynamic Stochastic Optimization Problems

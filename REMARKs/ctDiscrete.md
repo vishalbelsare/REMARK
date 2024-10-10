@@ -6,7 +6,7 @@ authors: # required
   - family-names: "Carroll"
     given-names: "Christopher D."
     orcid: "https://orcid.org/0000-0003-3732-9312"
-title: ctDiscrete # required
+title: "A Tractable Model of Buffer Stock Saving" # required
 abstract: 'Analytically tractable model of the effects of nonfinancial risk on intertemporal choice'  # optional
 
 # REMARK required fields
@@ -28,7 +28,7 @@ references: # required for replications; optional for reproductions; BibTex data
     publisher: "NBER"
 
 # Econ-ARK website fields
-github_repo_url:  https://github.com/llorracc/ctDiscrete # required
+github_repo_url:  https://github.com/econ-ark/ctDiscrete # required
 remark-name: ctDiscrete # required
 notebooks:  # path to any notebooks within the repo - optional
   - Code/HARK/Examples/ctDiscrete/TractableBufferStockModel.ipynb
